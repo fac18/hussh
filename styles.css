@@ -128,7 +128,8 @@ border-color: white;
         grid-template-rows: 1fr 1fr;
     }
     .team img {
-        width: 30vw;
+      width: 30em;
+      height: 30em;
     }
 
 }
@@ -158,7 +159,7 @@ border-color: white;
 }
 
 .checkbox {
-  margin: 1em 0 1em 1em;
+  margin: 1em;
   flex-grow: 5;
 }
 
