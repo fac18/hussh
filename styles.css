@@ -42,18 +42,21 @@ border-color: white;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
+    .team img {
+        width: 30vw;
+    }
 }
 
 #survey-form {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     font-size: 2em;
-    padding: 1em;
+    padding: 1em;*/
   }
   
   .rowTab {
-   padding: 1em;
-   display: flex;
+   /*padding: 1em;
+   display: flex;*/
    }
   
   .labels {
