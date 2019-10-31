@@ -11,9 +11,9 @@
   <header>
     <nav class="navigation">
       <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#teambio">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/team">Team</a></li>
+          <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
     <section class="title">
@@ -31,8 +31,9 @@
           We ensure your data will remain private, secure and protected at all times.
           Partner with us and allow our state-of-the-art encrypted firewall to keep your data safe and directly accessible.
       </p>
+>>>>>>> master
     </section>
-    <section id="teambio" class='team'>
+    <section class='team'>
       <figure>
         <img src="assets/Maria.jpg" alt="picture of Maria">
         <figcaption> <strong> Maria:</strong> Security engineer passionate about improving and maintaining existing network infrastructure, whilst providing exemplary end-user support.</figcaption>
@@ -52,34 +53,27 @@
       </figure>
     </section>
     <section>
-      <form id="" class="survey-form">
+      <form id="survey-form">
           <fieldset>
               <legend>Contact Us</legend>
-              <div class="flex-row">
-              <label class="name-label" for="name">*Name:</label>
-              <input id="name" class="input-field" type="text" autofocus required placeholder="Enter your name">
-            </div>
-              <div class="flex-row">
-              <label class="email-label" for="email">*Email: </label>
-              <input id="email" class="input-field" type="email" autofocus required placeholder="Enter your email">
-                </div>
-                <div class="flex-row">
-              <label class="number-label" for="phone">*Phone:</label>
-              <input id="number" class="input-field" type="tel" autofocus required placeholder="Enter your phone number" min="1" max="150">
-                </div>
-              <div class="flex-column">
-              <label class="textarea" for="submit-brief">Submit your brief here:</label>
-              <textarea id="submit-brief" class="comments" placeholder="Let us know your cybersecurity woes..."></textarea>
-              </div>
-              <div class="flex-check">
-              <input class="checkbox" type="checkbox" name="data-marketing">
-              <label class="data-marketing">Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
-            </div>
-              <button class="submit" type="submit">Submit</button>
-          </fieldset>
-        </form>
-      </section>
-    </main>
+                    <label class="name-label" for="name">*Name:</label>
+                      <input id="name" class="input-field" type="text" autofocus required placeholder="Enter your name">
+                       <label class="email-label" for="email">*Email: </label>
+                      <input id="email" class="input-field" type="email" autofocus required placeholder="Enter your email">
+                   <label class="number-label" for="phone">*Phone:</label>
+          <input id="phone" class="input-field" type="tel" autofocus required min="1" max="150">
+             <label class="textarea">Do you have any comments or suggestions?</label>
+                <textarea id="comments" class="comments" placeholder="Enter your comments here..."></textarea>
+
+            <label for='data-store'>Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
+            <input type="checkbox" name="data-store" id='data-store'>
+            <label>Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
+            <input type="checkbox" name="data-marketing"></label>
+            <button id="submit" type="submit">Submit</button>
+    </fieldset>
+    </form>
+  </section>
+</main>
   <script src="js/scripts.js"></script>
   <footer>
   </footer>
