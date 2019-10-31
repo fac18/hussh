@@ -229,6 +229,12 @@ border-color: white;
       margin: auto;
     }
 
+    i.fab {
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        margin-right: 10px;
+    }
 
 
 
