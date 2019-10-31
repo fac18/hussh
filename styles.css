@@ -154,12 +154,11 @@ border-color: white;
 
 .data-store {
   font-size: 0.5em;
-  vertical-align: text-top;
   flex-grow: 10;
-  margin-bottom: 2rem;
 }
 
 .checkbox {
+  margin: 1em 0 1em 1em;
   flex-grow: 5;
 }
 
@@ -173,7 +172,7 @@ border-color: white;
   }
 
   .survey-form label {
-    padding-top: 1.2em;
+    margin: 1em;
   }
 
   .flex-row {
