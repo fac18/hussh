@@ -46,22 +46,24 @@
       </figure>
     </section>
     <section>
-      <form>
-      <fieldset>
-        <legend>Fruit juice size</legend>
-          <p>
-            <input type="radio" name="size" id="size_1" value="small">
-            <label for="size_1">Small</label>
-          </p>
-          <p>
-            <input type="radio" name="size" id="size_2" value="medium">
-            <label for="size_2">Medium</label>
-          </p>
-          <p>
-            <input type="radio" name="size" id="size_3" value="large">
-            <label for="size_3">Large</label>
-          </p>
-      </fieldset>
+      <form id="survey-form">
+          <fieldset>
+              <legend>Contact Us</legend>
+                    <label class="name-label" for="name">*Name:</label>
+                      <input id="name" class="input-field" type="text" autofocus required placeholder="Enter your name">
+                       <label class="email-label" for="email">*Email: </label>
+                      <input id="email" class="input-field" type="email" autofocus required placeholder="Enter your email">
+                   <label class="number-label" for="phone">*Phone:</label>
+          <input id="number" class="input-field" type="tel" autofocus required min="1" max="150">
+             <label class="textarea">Do you have any comments or suggestions?</label>
+                <textarea id="comments" class="comments" placeholder="Enter your comments here..."></textarea>
+                          
+            <label for>Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
+            <input type="checkbox" name="data-store">
+            <label>Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
+            <input type="checkbox" name="data-marketing"></label>
+            <button id="submit" type="submit">Submit</button>
+    </fieldset>
     </form>
   </section>
 </main>
