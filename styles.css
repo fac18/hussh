@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    background: grey;
+    margin: 4rem;
 }
 
 * {
@@ -14,9 +16,24 @@ body {
     flex-direction: column;
 }
 
+.team figure {
+margin: auto;
+text-align: center;
+padding: 2rem;
+}
+
+.team figcaption {
+padding: 2rem;
+text-align: justify;
+}
+
 .team img {
-border-radius: 50%; 
-width: 80vw;
+border-radius: 50%;
+width: 60vw;
+border: solid 4rem;
+border-left-width: 1rem;
+border-color: white;
+//* transform: skewY(-5deg);*//
 }
 
 @media (min-width: 1000px) {
@@ -26,9 +43,3 @@ width: 80vw;
         grid-template-rows: 1fr 1fr;
     }
 }
-
-
-
-
-
-
