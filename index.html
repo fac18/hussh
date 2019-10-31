@@ -11,9 +11,9 @@
   <header>
     <nav class="navigation">
       <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#teambio">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/team">Team</a></li>
+          <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
     <section class="title">
@@ -23,10 +23,10 @@
   </header>
 
   <main>
-    <section id="about" class="about-us">
+    <section class="about-us">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum rem laboriosam mollitia reiciendis praesentium debitis! Autem, impedit rem. Laudantium corporis unde deleniti repellendus ea vero laboriosam quo eius blanditiis.</p>
     </section>
-    <section id="teambio" class='team'>
+    <section class='team'>
       <figure>
         <img src="https://www.istockphoto.com/resources/images/PhotoFTLP/Halloween-951074554.jpg" alt="Trulli">
         <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -46,34 +46,27 @@
       </figure>
     </section>
     <section>
-      <form id="" class="survey-form">
+      <form id="survey-form">
           <fieldset>
               <legend>Contact Us</legend>
-              <div class="flex-row">
-              <label class="name-label" for="name">*Name:</label>
-              <input id="name" class="input-field" type="text" autofocus required placeholder="Enter your name">
-            </div>
-              <div class="flex-row">
-              <label class="email-label" for="email">*Email: </label>
-              <input id="email" class="input-field" type="email" autofocus required placeholder="Enter your email">
-                </div>
-                <div class="flex-row">
-              <label class="number-label" for="phone">*Phone:</label>
-              <input id="number" class="input-field" type="tel" autofocus required placeholder="Enter your phone number" min="1" max="150">
-                </div>
-              <div class="flex-column">
-              <label class="textarea" for="submit-brief">Submit your brief here:</label>
-              <textarea id="submit-brief" class="comments" placeholder="Let us know your cybersecurity woes..."></textarea>
-              </div>
-              <div class="flex-check">
-              <input class="checkbox" type="checkbox" name="data-marketing">
-              <label class="data-marketing">Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
-            </div>
-              <button class="submit" type="submit">Submit</button>
-          </fieldset>
-        </form>
-      </section>
-    </main>
+                    <label class="name-label" for="name">*Name:</label>
+                      <input id="name" class="input-field" type="text" autofocus required placeholder="Enter your name">
+                       <label class="email-label" for="email">*Email: </label>
+                      <input id="email" class="input-field" type="email" autofocus required placeholder="Enter your email">
+                   <label class="number-label" for="phone">*Phone:</label>
+          <input id="phone" class="input-field" type="tel" autofocus required min="1" max="150">
+             <label class="textarea">Do you have any comments or suggestions?</label>
+                <textarea id="comments" class="comments" placeholder="Enter your comments here..."></textarea>
+                          
+            <label for='data-store'>Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
+            <input type="checkbox" name="data-store" id='data-store'>
+            <label>Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
+            <input type="checkbox" name="data-marketing"></label>
+            <button id="submit" type="submit">Submit</button>
+    </fieldset>
+    </form>
+  </section>
+</main>
   <script src="js/scripts.js"></script>
   <footer>
   </footer>
