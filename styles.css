@@ -3,5 +3,32 @@ body {
     flex-direction: column;
 }
 
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+.team {
+    display: flex;
+    flex-direction: column;
+}
+
+.team img {
+border-radius: 50%; 
+width: 80vw;
+}
+
+@media (min-width: 1000px) {
+    .team {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+
+
+
 
 
