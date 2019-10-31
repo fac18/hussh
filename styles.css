@@ -8,6 +8,7 @@
 
 body {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
     background: url(assets/bg-web.png) no-repeat center center fixed;
     background-size: cover;
@@ -131,7 +132,21 @@ border-color: white;
       width: 30em;
       height: 30em;
     }
+    nav ul li {
+        margin: 1.5rem 6rem;
+    }
 
+    .title {
+        margin-top: 100px;
+    }
+
+    .au-head{
+        font-size: 2.5rem;
+    }
+
+    .au-body {
+        font-size: 1.5em;
+    }
 }
 
 .survey-form {
@@ -239,4 +254,11 @@ border-color: white;
     footer a {
         text-decoration: none;
         color: black;
+    }
+
+    i.fab {
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        margin-right: 10px;
     }
