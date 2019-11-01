@@ -111,6 +111,7 @@ padding: 2rem;
 padding: 2rem;
 text-align: justify;
 color: white;
+font-size: 1.5rem;
 }
 
 .team img {
@@ -129,6 +130,8 @@ object-fit: cover;
     font-size: 2em;
     padding: 1em;
     margin: 1.5em;
+    color: white;
+    font-weight: 800;
   }
 
   .input-field {
@@ -196,7 +199,7 @@ object-fit: cover;
 
     .submit  {
       width: 80vw;
-      align: center;
+      box-align: center;
       background-color: black;
       border: solid white;
       display: block;
