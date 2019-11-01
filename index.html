@@ -12,14 +12,14 @@
   <header>
     <nav class="navigation">
       <ul>
-          <li><a href="#about-us">About</a></li>
-          <li><a href="#teambio">Team</a></li>
-          <li><a href="#survey-form">Contact</a></li>
+          <li><a name="about-us" href="#about-us">About</a></li>
+          <li><a name="team-bios" href="#teambio">Team</a></li>
+          <li><a name="survey-form" href="#survey-form">Contact</a></li>
       </ul>
     </nav>
     <section class="title">
       <h1 class="hushh">#huShh</h1>
-      <img class="bg-img" src="assets/bg-img.jpg" alt="title background">
+      <img class="bg-img" src="assets/bg-img.jpg" alt="">
     </section>
   </header>
   <main>
@@ -35,28 +35,28 @@
     </section>
     <section class='team' id="teambio">
       <figure>
-        <img src="assets/Maria.jpg" alt="picture of Maria">
-        <a href=""><i class="fab fa-linkedin-in"></i></a>
-        <a href=""><i class="fab fa-github"></i></a>
+        <img src="assets/Maria.jpg" alt="Maria">
+        <a name="Maria-linkedin" href=""><i class="fab fa-linkedin-in"></i></a>
+        <a name="Maria-github" href=""><i class="fab fa-github"></i></a>
         <figcaption> <strong> Maria:</strong> Security engineer passionate about improving and maintaining existing network infrastructure, whilst providing exemplary end-user support.</figcaption>
       </figure>
       <figure>
-        <img src="assets/rosa.jpg" alt="Picture of Rosa">
-        <a href=""><i class="fab fa-linkedin-in"></i></a>
-        <a href=""><i class="fab fa-github"></i></a>
+        <img src="assets/rosa.jpg" alt="Rosa">
+        <a name="Rosa-linkedin" href=""><i class="fab fa-linkedin-in"></i></a>
+        <a name="Rosa-github" href=""><i class="fab fa-github"></i></a>
          <figcaption> <strong> Rosalie:</strong>Expert in cybersecurity and network infrastructure, responsibile for most major government hacks of the 90s.</figcaption>
       </figure>
       <figure>
-        <img src="assets/judith.JPG" alt="Picture of JUdith">
-        <a href=""><i class="fab fa-linkedin-in"></i></a>
-        <a href=""><i class="fab fa-github"></i></a>
+        <img src="assets/judith.JPG" alt="Judith">
+        <a name="Judith-linkedin" href=""><i class="fab fa-linkedin-in"></i></a>
+        <a name="Judith-github" href=""><i class="fab fa-github"></i></a>
         <figcaption><strong> Judith: </strong>Former hacker, now committed to using knowledge and skills to protect your precious data.
         </figcaption>
       </figure>
       <figure>
-        <img src="assets/roshan.jpeg" alt="PIcture of ROshan">
-        <a href=""><i class="fab fa-linkedin-in"></i></a>
-        <a href=""><i class="fab fa-github"></i></a>
+        <img src="assets/roshan.jpeg" alt="Roshan">
+        <a name="Roshan-linkedin" href=""><i class="fab fa-linkedin-in"></i></a>
+        <a name="Roshan-github" href=""><i class="fab fa-github"></i></a>
         <figcaption><strong>Roshan: </strong>Back-end developer passionate about keeping private information safe and secure.</figcaption>
       </figure>
     </section>
@@ -66,18 +66,18 @@
               <legend>Contact Us</legend>
               <div class="flex-row">
                 <label class="name-label" for="name">*Name:</label>
-                <input id="name" class="input-field" type="text" autofocus required placeholder="Enter your name">
+                <input id="name" class="input-field" type="text" required placeholder="Enter your name">
               </div>
               <div class="flex-row">
                 <label class="email-label" for="email">*Email: </label>
-                <input id="email" class="input-field" type="email" autofocus required placeholder="Enter your email">
+                <input id="email" class="input-field" type="email" required placeholder="Enter your email">
               </div>
               <div class="flex-row">
                 <label class="number-label" for="phone">*Phone:</label>
-                <input id="phone" class="input-field" type="tel" autofocus required placeholder="Enter your phone number" min="1" max="150">
+                <input id="phone" class="input-field" type="tel" required placeholder="Enter your phone number" min="1" max="150">
               </div>
               <div class="flex-column">
-                <label class="textarea" for="brief">What's your brief?</label>
+                <label class="textarea" for="submit-brief">What's your brief?</label>
                 <textarea id="submit-brief" class="comments" placeholder="Let us know your cybersecurity woes..."></textarea>
               </div>
               <div class="flex-row">
@@ -89,15 +89,12 @@
     </form>
   </section>
 </main>
-  <script src="js/scripts.js"></script>
+  <script src="script.js"></script>
   <footer>
       <ul>
-          <li><a href="/privacy-policy">Privacy Policy</a></li>
-          <li>|</li>
-          <li><a href="/modern-slavery-act">Our Offices</a></li>
-          <li>|</li>
-          <li><a href="/modern-slavery-act">Modern Slavery Act</a></li>
-          <li>|</li>
+          <li><a name="privacy-policy" href="https://fac18.github.io/hussh/">Privacy Policy</a></li>
+          <li><a name="our-offices" href="https://fac18.github.io/hussh/">Our Offices</a></li>
+          <li><a name="modern-slavery" href="https://fac18.github.io/hussh/">Modern Slavery Act</a></li>
           <li>Copyright @ 2019 huSSH</li>
       </ul>
   </footer>
