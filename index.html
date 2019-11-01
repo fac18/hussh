@@ -61,29 +61,45 @@
       </figure>
     </section>
     <section>
-      <form id="survey-form">
+      <form id="survey-form" class="survey-form">
           <fieldset>
               <legend>Contact Us</legend>
-                    <label class="name-label" for="name">*Name:</label>
-                      <input id="name" class="input-field" type="text" autofocus required placeholder="Enter your name">
-                       <label class="email-label" for="email">*Email: </label>
-                      <input id="email" class="input-field" type="email" autofocus required placeholder="Enter your email">
-                   <label class="number-label" for="phone">*Phone:</label>
-          <input id="phone" class="input-field" type="tel" autofocus required min="1" max="150">
-             <label class="textarea">Do you have any comments or suggestions?</label>
-                <textarea id="comments" class="comments" placeholder="Enter your comments here..."></textarea>
-
-            <label for='data-store'>Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
-            <input type="checkbox" name="data-store" id='data-store'>
-            <label>Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
-            <input type="checkbox" name="data-marketing"></label>
-            <button id="submit" type="submit">Submit</button>
+              <div class="flex-row">
+                <label class="name-label" for="name">*Name:</label>
+                <input id="name" class="input-field" type="text" autofocus required placeholder="Enter your name">
+              </div>
+              <div class="flex-row">
+                <label class="email-label" for="email">*Email: </label>
+                <input id="email" class="input-field" type="email" autofocus required placeholder="Enter your email">
+              </div>
+              <div class="flex-row">
+                <label class="number-label" for="phone">*Phone:</label>
+                <input id="phone" class="input-field" type="tel" autofocus required placeholder="Enter your phone number" min="1" max="150">
+              </div>
+              <div class="flex-column">
+                <label class="textarea" for="brief">What's your brief?</label>
+                <textarea id="submit-brief" class="comments" placeholder="Let us know your cybersecurity woes..."></textarea>
+              </div>
+              <div class="flex-row">
+                <input class="checkbox" type="checkbox" name="data-store" id='data-store'>
+                <label class="data-store" for='data-store'>Please tick to consent to your data being stored in line with the guidelines set out in our Privacy Policy</label>
+              </div>
+              <button class="submit" type="submit">Submit</button>
     </fieldset>
     </form>
   </section>
 </main>
   <script src="js/scripts.js"></script>
   <footer>
+      <ul>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li>|</li>
+          <li><a href="/modern-slavery-act">Our Offices</a></li>
+          <li>|</li>
+          <li><a href="/modern-slavery-act">Modern Slavery Act</a></li>
+          <li>|</li>
+          <li>Copyright @ 2019 huSSH</li>
+      </ul>
   </footer>
 </body>
 </html>
