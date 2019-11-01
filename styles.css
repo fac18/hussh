@@ -265,3 +265,8 @@ border-color: white;
         cursor: pointer;
         margin-right: 10px;
     }
+
+    #about-link {
+      position: relative;
+      top: -165px;
+    }
