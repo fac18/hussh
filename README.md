@@ -10,13 +10,15 @@
 ### Wire Framing
 - We started with jotting down some layout and content ideas on paper.
 
-![Image of our plan](.jpg)
+![Photo of our wire frame](https://imgur.com/a/xiUWJNw)
 
 - We decided that we wanted to be mobile first partly because of accessibility issues and to be more progressive.
 - all worked on together as a base html structure then pushed to git
 
 ### Grid within a Flex-box vs Flex-box within a grid
 - We had a bit of a disscussion about the best approach to our desired layout. It turned out that flex-box was the answer to alot of the issues.
+
+![Photo of our layout sketch](https://imgur.com/YOt0bIB)
 
 ### Git Flow
 - We fell out of the flow a few times, but we think its great.
